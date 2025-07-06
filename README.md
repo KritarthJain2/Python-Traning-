@@ -45,7 +45,7 @@ else:
     print("Wrong Answer.")
 
 
-#Calculator
+ # Calculator
 
 print("Select Operation:")
 print("1. Addition (+)")
