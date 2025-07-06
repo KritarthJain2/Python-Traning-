@@ -1,6 +1,6 @@
 # Python-Traning-
-#KBC Game
-# Question 1
+# KBC Game
+#Question 1
 print("Question for ₹10,000:")
 print("Which of the following is the largest planet in our solar system?")
 print("A. Earth")
@@ -15,7 +15,7 @@ else:
     print("Wrong Answer")
     exit()
 
-# Question 2
+#Question 2
 print("Question for ₹20,000:")
 print("Who is known as the Father of the Nation in India?")
 print("A. Jawaharlal Nehru")
@@ -30,7 +30,7 @@ else:
     print(" Wrong Answer.")
     exit()
 
-# Question 3
+#Question 3
 print("Question for ₹40,000:")
 print("Who is the Chief Minister of Rajasthan?")
 print("A. Bhajan Lal Sharma")
