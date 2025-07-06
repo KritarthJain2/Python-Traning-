@@ -1,0 +1,10 @@
+print("\t\t\tWelcome to the mysterious castle \n \t\t\tWhere you have to find the key\n \t\t\t\tTo open the door")
+
+c = float(input('Enter the secret code: '))
+
+if c % 3 == 0 and c % 5 == 0:
+    print('Clue Found!')
+elif c % 3 == 0 or c % 5 == 0:
+    print('Clue found')
+else:
+    print('Wrong code')
