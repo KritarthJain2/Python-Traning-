@@ -1,12 +1,16 @@
-print("\t\t\tWelcome to the mysterious castle \n \t\t\tWhere you have to find the key\n \t\t\t\tTo open the door")
+print("Welcome to the mysterious castle \nwhere you have to find the key")
 
-c = float(input('Enter the secret code: '))
+for i in range(3):
+    c = float(input("Enter the secret code: "))
 
-if c % 3 == 0 and c % 5 == 0:
-    print('Clue Found!')
-elif c % 3 == 0 or c % 5 == 0:
-    print('Clue found')
+    if c % 3 == 0 and c % 5 == 0:
+        print("Clue found!")
+        break
+    elif c % 3 == 0 or c % 5 == 0:
+        print("Clue found!")
+        break
+    else:
+        print("Wrong code, try again.")
+        continue
 else:
-    print('Wrong code')
-
-
+    print("All chances used. The castle is now locked.")
