@@ -1,0 +1,4 @@
+n = int(input("enter table"))
+nn = int(input("enter table"))
+for i in range(n,nn,n):
+  print(i)
