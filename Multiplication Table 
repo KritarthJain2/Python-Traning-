@@ -1,0 +1,6 @@
+i =1
+n=int(input('which table you want to print'))
+while i <=10:
+    r = n*i
+    print(n,'×',i ,'= ',r)
+    i = i+1
