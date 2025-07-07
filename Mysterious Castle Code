@@ -8,3 +8,5 @@ elif c % 3 == 0 or c % 5 == 0:
     print('Clue found')
 else:
     print('Wrong code')
+
+
