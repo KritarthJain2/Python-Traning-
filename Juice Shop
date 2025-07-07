@@ -1,0 +1,23 @@
+# Juice shop
+juices = {
+    "orange": 40,
+    "apple": 50,
+    "mixed": 60
+}
+
+# Input
+juice = input("Enter juice (orange/apple/mixed): ")
+more = int(input("More juices (quantity): "))
+day = input("Enter day: ")
+
+# Price calculation
+price = juices[juice]
+total = price * (1 + more)
+
+# Discount using logical operator (True = 1, False = 0)
+discount = 0.2 * total * ((day == "saturday") or (day == "sunday"))
+
+# Final price
+final = total - discount
+
+print("Price: ₹", final)
