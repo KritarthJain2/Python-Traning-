@@ -1,0 +1,8 @@
+i=[]
+i.append(1)
+i.append(20)
+i
+i.insert(2,30)
+i
+i.insert(1,100)
+i
