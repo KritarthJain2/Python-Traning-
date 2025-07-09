@@ -1,0 +1,21 @@
+marksheet = []
+
+i = 1
+while i <= 4:
+    print(f"\nStudent {i} ka data:")
+    name = input("Naam: ")
+    subject = input("Subject: ")
+    marks = float(input("Marks: "))
+    address = input("Address: ")
+
+    student = [name,subject,marks,address]
+
+    marksheet.append(student)
+
+    i += 1
+
+print("\n========= Marksheet =========")
+print("Naam\t\tSubject\t\tMarks\t\tAddress")
+
+for student in marksheet:
+    print(f"{student[0]}\t\t{student[1]}\t\t{student[2]}\t\t{student[3]}")
