@@ -1,0 +1,21 @@
+students = [
+    ("Nipun", "Maths", 95),
+    ("Aman", "Maths", 89),
+    ("Priya", "Maths", 76),
+    ("Riya", "Maths", 84),
+    ("Mohit", "Maths", 68)
+]
+
+print("Student Records:")
+for student in students:
+    name, subject, marks = student
+    print(f"{name} | {subject} | Marks: {marks}")
+
+total_marks = sum(student[2] for student in students)
+average = total_marks / len(students)
+print(f"\nAverage Marks: {average:.2f}")
+
+highest = max(student[2] for student in students)
+toppers = [student[0] for student in students if student[2] == highest]
+print(f"Highest Marks: {highest}")
+print("Toppers:", ", ".join(toppers))
