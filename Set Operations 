@@ -1,0 +1,20 @@
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print("Set A:", a)
+print("Set B:", b)
+print()
+
+
+print(" Union (a | b):", a | b)
+print(" Union :", a.union(b))
+print()
+
+print(" Intersection (a & b):", a & b)
+print(" Intersection :", a.intersection(b))
+print()
+
+
+print(" Difference (a - b):", a - b)
+print(" Difference:", a.difference(b))
+print()
