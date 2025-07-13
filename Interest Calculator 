@@ -1,0 +1,8 @@
+def interest(p,r,t):
+  return (p*r*t)/100
+
+p = int(input('enter principle amount'))
+r = float(input('enter rate '))
+t = int(input('enter time'))
+
+print('interest : ',interest(p,r,t))
