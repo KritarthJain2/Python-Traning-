@@ -1,0 +1,18 @@
+def factorial(n):
+    result = 1
+    for i in range(, n + 1):
+        result *= i
+    return result
+
+
+def factorial_list(lst):
+    result_list = []
+    for num in lst:
+        result_list.append(factorial(num))
+    return result_list
+
+numbers = [1, 2, 3, 4, 5]
+fact_result = factorial_list(numbers)
+
+print("Original List:", numbers)
+print("Factorials:", fact_result)
